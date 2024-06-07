@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LendingLibraryInterview.Core\LendingLibraryInterview.Core.csproj" />
     <ProjectReference Include="..\LendingLibraryInterview.Data\LendingLibraryInterview.Data.csproj" />
   </ItemGroup>
 

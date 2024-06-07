@@ -18,5 +18,6 @@ public class SQLiteDbContext : DbContext
         modelBuilder.Entity<Book>().Property(b => b.Author).IsRequired();
         modelBuilder.Entity<Book>().Property(b => b.ISBN);
         modelBuilder.Entity<Book>().Property(b => b.IsCheckedOut);
+        // modelBuilder.Entity<Book>().HasIndex(b => b.ISBN) // TODO: Add index for ISBN
     }
 }
